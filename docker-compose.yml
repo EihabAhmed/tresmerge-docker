@@ -1,6 +1,7 @@
 services:
   node-app:
     container_name: node-app-container
+    image: eihabahmed/tresmerge-docker
     ports:
       - 4000:4000
     env_file:
